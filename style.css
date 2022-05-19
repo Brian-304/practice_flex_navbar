@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: white;
+    padding: 1em;
+    border-radius: 2px;
+    font-size: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333333;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+    font-size: 20px;
+}
+
+.btn {
+    color: white;
+    font-size: 20px;
+    background-color: #17a2b8;
+    box-shadow: 2px 2px black;
+}
